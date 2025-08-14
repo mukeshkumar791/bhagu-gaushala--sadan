@@ -1,0 +1,55 @@
+.qrcode{
+    width: 120px;
+    height: 120px;
+}
+.footer{
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  padding: 20rem 0;
+  background-image: url("../img/aas_slider4.jpg");
+  position: relative;
+  background-size: cover !important;
+}
+.footer-color-back{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+        padding-top: 127px;
+}
+.nav-laist{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* color: sienna; */
+    text-align: center;
+}
+.li-list{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.li-list:hover{
+    text-decoration: underline blue;
+    color: darksalmon;
+}
+.Qr{
+    width: 120px;
+    height: 120px;
+}
+@media (max-width: 491px) {
+    .footer-main{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

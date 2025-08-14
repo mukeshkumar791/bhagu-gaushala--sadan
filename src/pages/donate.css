@@ -1,62 +1,20 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-.contanier{
-    margin: auto;
-    width: 100%;
-    max-width: 1300px;
-}
 .donate-back-img{
-background-image: url(../sun-shining-sky-sunrise-sunset-time-background_58717-205.avif);
-object-fit: cover;
-width: 100%;
-background-position: center;
-background-size: cover;
-height: 100%;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
 }
-
-.donate{
-background-color: aliceblue;
-max-width: 700px;
-width: 100%;
-border: 1px solid red;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 20px;
-margin: auto;
-
+.donate-contaner{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
 }
-.donate-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.input-text{
-    height: 45px;
-  box-shadow: none;
-  border: 1px solid #ccc;
-  background: #f6f2f2;
-  color: #000;
-  font-size: 15px;
-  font-weight: 500;
-  padding: 6px 11px;
-  border-radius: 10px;
-  width: 100%;
-}
-.account-type{
-    max-width: 250px;
-}
-.bt{
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: #ff7400;
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 900;
+.donate-body{
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
 }

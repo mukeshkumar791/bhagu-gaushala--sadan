@@ -1,38 +1,293 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.cow-logo{
-    width: 150px;
-    height: 150px;
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
-.contanier{
-    margin: auto;
-    width: 100%;
+
+.container {
     max-width: 1300px;
+    margin: auto;
 }
-.nav-list{
+
+.gau {
+    font-weight: 900;
+    color: brown;
+}
+
+.nav-bar {
+    display: flex;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 46px;
+    height: 45px;
+}
+
+.logo-tittel {
+    padding-top: 11px;
+}
+
+.nav-list {
     display: flex;
     list-style: none;
     gap: 30px;
     font-size: 20px;
-    font-weight: 900px;
-    line-height: 1px;
-    color:gold;
+    text-transform: uppercase;
+    padding-top: 21px;
 }
-.donation{
-    padding: 10px;
-    border-radius: 40px;
-    font-size: 20px;
-    font-weight: 600px;
-    background-color: gold;
-    border: none;
-}
-.navgation-bar{
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 30px;
 
+.backgroud-color {
+    background-color: green;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(../img/il_570xN.4317121797_tg2x.webp);
+}
+
+.cow-tittel {
+    padding: 10px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600px;
+    border-radius: 50px 50px 0 0;
+    background: linear-gradient(90deg, #ff7400 28.12%, #f91717);
+}
+
+.cow-tittel2 {
+    padding: 10px 40px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600px;
+    border-radius:30px;
+    background: linear-gradient(90deg, #ff7400 28.12%, #f91717);
+}
+.font2{
+    font-weight: bold;
+    color: #f91717;
+    font-size: 30px;
+}
+
+.cowbabies {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.interdution-tittle {
+    max-width: 750px;
+    justify-self: center;
+}
+
+.information-card-items {
+    width: 300px;
+    height: 300px;
+    border: 2px solid gold;
+    padding-top: 40px;
+}
+
+.font {
+    font-size: 40px;
+    color: #F46130;
+}
+
+.item-heading {
+    color: #F46130;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.information-crads {
+    display: flex;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+
+.btn-oring {
+    padding: 7px 23px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background: linear-gradient(90deg, #ff7400 28.12%, #f91717);
+    font-weight: 600px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.tuladan-tittle {
+    width: 500px;
+    border: 1px solid #f91717;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tuladan-img {
+    width: 500px;
+
+}
+
+.tuladan-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.shree-banke-bihari-tempal {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: anchor-center;
+    gap: 20px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.most-about {
+    width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: anchor-center;
+    padding: 10px
+}
+
+.most-about-p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.gaushale-make-informations {
+    width: 700px;
+}
+
+.realeant {
+    height: 400px;
+    width: 400px;
+}
+
+.section-padding {
+    padding-top: 70px;
+}
+
+.cow-babies-main {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cow-paap {
+    /* border: 2px solid salmon ; */
+    width: 100%;
+    height: auto;
+}
+
+.cow-save {
+    width: 100%;
+    position: relative;
+}
+
+.stop {
+    font-size: 40px;
+    font-weight: 800;
+    color: #F46130;
+}
+
+.cow-main-part {
+    position: relative;
+}
+
+.cow-save-tittel {
+    position: absolute;
+    top: 141px;
+    display: flex;
+    flex-direction: column;
+    justify-self: anchor-center;
+}
+
+.cow-save-tittel p {
+    color: gold;
+    font: 20px;
+}
+
+.tretment-card {
+    width: 200px;
+    border: 1px solid;
+    border-color: #F46130;
+    border-radius: 20px;
+}
+
+.welcome {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-self: anchor-center;
+    align-items: anchor-center;
+}
+.toggla-icon{
+    width: 100px;
+    height: 100px;
+    color: #f91717;
+}
+
+@media (max-width:1100px) {
+    .nav-list {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:991px) {
+    .nav-list {
+        display: none;
+    }
+
+    .information-crads {
+        flex-wrap: wrap;
+        min-width: 250px;
+        justify-content: center;
+    }
+
+    .tuladan-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tuladan-tittle {
+        width: 800px;
+        padding: 20px 40px;
+    }
+    .doners{
+        display: none;
+    }
+}
+@media (max-width:391px) {
+    .cow-tittel2 {
+        font-size: 13px;
+        color: aqua;
+        font-weight: bold;
+    }
+    .gau{
+        font-size: 14px;
+    }
+    .logo-tittel{
+        flex-direction: column;
+    }
+    
 }
