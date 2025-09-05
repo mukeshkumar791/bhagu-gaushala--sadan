@@ -1,0 +1,161 @@
+.about-page {
+  max-width: 1300px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  /* background: #fffaf0; */
+  justify-content: center;
+
+}
+.section{
+    background-image: url(../img/dr1683299946-7551.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  margin-top: 10px;
+  color:orangered;
+}
+
+.about-section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+  border: 1px solid orangered;
+  border-radius: 20px;
+  justify-self: center;
+  font-weight: 900;
+
+}
+.sect-about {
+    padding-top: 20px;
+    background-color: #14053e;
+    padding-bottom: 20px;
+}
+
+.about-section h2 {
+  margin-bottom: 10px;
+  color: orangered;
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-section ul {
+  padding-left: 20px;
+  line-height: 1.8;
+  list-style: none;
+}
+
+.about-cta {
+  text-align: center;
+}
+
+.about-cta button {
+  margin-top: 15px;
+  background: #b5651d;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.about-cta button:hover {
+  background: #8b4513;
+}
+.slider-pic{
+  /* width: 235px; */
+  width: 100%;
+  height: 300px;
+  /* border-radius-top: 15px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.pic-demage h2{
+  border-top: 3px solid white;
+  margin-top: 2px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+.img-contro-slider {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.treatment-img{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.sect-about{
+  padding-top: 20px;
+}
+@media (max-width:991px) {
+  .img-contro-slider{
+    flex-wrap: wrap;
+  }
+  .slider-pic{
+  width: 100%;}
+
+.slick-slide-item{
+  width: 250px;
+}
+  .slick-slide {
+    margin: 5px;
+  }
+}
+
+@media (max-width:640px) {
+  .about-section {
+    width: 400px;
+  }
+}
+
+@media (max-width:491px) {
+  .about-section {
+    width: 300px;
+    font-weight: 900;
+  }
+
+  .about-hero p {
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .about-hero h1 {
+    font-size: 22px;
+    color: orangered;
+    font-weight: 600;
+  }
+}
+.pic-demage{
+  border: 2px solid gold;
+  background-color: orangered;
+  border-radius:15px ;
+  width: 300px !important;
+}
+
+
+
+
+

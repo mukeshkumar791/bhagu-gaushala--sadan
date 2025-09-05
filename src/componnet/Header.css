@@ -19,41 +19,16 @@ body {
     font-weight: 900;
     color: brown;
 }
-
-.nav-bar {
-    display: flex;
-    height: 80px;
-    border: none;
-    border-bottom: 1px solid black;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .search {
     width: 46px;
     height: 45px;
 }
-
-.logo-tittel {
-    padding-top: 11px;
-}
-
-.nav-list {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-top: 21px;
-}
-
 .backgroud-color {
     background-color: green;
     width: 100%;
     border-radius: 20px;
     background-image: url(../img/il_570xN.4317121797_tg2x.webp);
 }
-
 .cow-tittel {
     padding: 10px;
     color: white;
@@ -68,10 +43,11 @@ body {
     color: white;
     font-family: 'poppins', sans-serif;
     font-weight: 600px;
-    border-radius:30px;
+    border-radius: 30px;
     background: linear-gradient(90deg, #ff7400 28.12%, #f91717);
 }
-.font2{
+
+.font2 {
     font-weight: bold;
     color: #f91717;
     font-size: 30px;
@@ -94,11 +70,13 @@ body {
     height: 300px;
     border: 2px solid gold;
     padding-top: 40px;
+    border-radius: 20px;
 }
 
 .font {
     font-size: 40px;
     color: #F46130;
+    font-weight: bolder;
 }
 
 .item-heading {
@@ -113,6 +91,7 @@ body {
     display: flex;
     padding-top: 40px;
     gap: 20px;
+    justify-content: space-between ;
 }
 
 
@@ -173,11 +152,29 @@ body {
 
 .gaushale-make-informations {
     width: 700px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid sandybrown;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .realeant {
     height: 400px;
-    width: 400px;
+    width: 100% !important;
+}
+
+.phara {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.tauladan-img {
+    width: 100%;
 }
 
 .section-padding {
@@ -192,7 +189,6 @@ body {
 }
 
 .cow-paap {
-    /* border: 2px solid salmon ; */
     width: 100%;
     height: auto;
 }
@@ -200,12 +196,12 @@ body {
 .cow-save {
     width: 100%;
     position: relative;
+    filter: opacity(0.5);
 }
 
 .stop {
     font-size: 40px;
     font-weight: 800;
-    color: #F46130;
 }
 
 .cow-main-part {
@@ -218,11 +214,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-self: anchor-center;
+    text-transform: uppercase;
+    color: #f91717;
 }
 
 .cow-save-tittel p {
-    color: gold;
     font: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .tretment-card {
@@ -240,23 +239,49 @@ body {
     justify-self: anchor-center;
     align-items: anchor-center;
 }
-.toggla-icon{
+
+.toggla-icon {
     width: 100px;
     height: 100px;
     color: #f91717;
 }
 
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background: #111;
+    color: white;
+    white-space: nowrap;
+}
+.li-list1{
+    text-decoration: none;
+    color: #f91717;
+}
+
+
+.ss {
+    background: #111827;
+    padding: 10px 16px;
+    position: relative;
+  }
+
+  .brand {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .doners{
+    display: block;
+  }
+
+
 @media (max-width:1100px) {
-    .nav-list {
-        font-size: 16px;
+
+    .gau {
+        font-size: 14px;
     }
 }
 
 @media (max-width:991px) {
-    .nav-list {
-        display: none;
-    }
-
     .information-crads {
         flex-wrap: wrap;
         min-width: 250px;
@@ -273,21 +298,83 @@ body {
         width: 800px;
         padding: 20px 40px;
     }
-    .doners{
+
+    .doners {
         display: none;
     }
+
+    .information {
+        flex-wrap: wrap;
+    }
+
+    .font {
+        font-size: 30px;
+    }
+
+    .most-about {
+        width: 100%;
+    }
+
+    .shree-banke-bihari-tempal {
+        width: 100%;
+    }
+
+    .cow-save-tittel {
+        top: 52px;
+    }
+
 }
+
+@media (max-width:491px) {
+    .gaushale-make-informations {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .font {
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .phargharf-scroll {
+        height: 30ch;
+        overflow-y: scroll;
+        border: 1px solid #f91717;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cow-save-tittel {
+        position: absolute;
+        top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-self: anchor-center;
+        text-align: center;
+    }
+
+    .stop {
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+}
+
 @media (max-width:391px) {
     .cow-tittel2 {
         font-size: 13px;
         color: aqua;
         font-weight: bold;
     }
-    .gau{
-        font-size: 14px;
+    .font {
+        font-size: 22px;
     }
-    .logo-tittel{
-        flex-direction: column;
+
+    .phara {
+        font-size: 13px;
     }
-    
+
 }

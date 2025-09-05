@@ -1,65 +1,87 @@
-import React from 'react'
-import "./Footer.css"
-import Qrcode from "../img/QR-Code100.jpg"
-const Footer = () => {
+import React from "react";
+import "./Footer.css";
+import qrcode from "../img/QrCODEUntitled-pica.png"
+import { NavLink } from "react-router-dom";
+import logo from "../1.png"
+
+export default function Footer() {
   return (
-    <div>
-      <div className='footer'>
-        <div className='footer-color-back'>
-          <div className='container'>
-   <div className='footer-main'>
-    <div>
-      <img src="" alt="logo" />
-      <h3>श्री बांके बिहारी गौ सेवा सदन</h3>
-      <div>
-        <h5>contect us </h5>
-   <p>24x7 Helpline Number (Cow) Ambulance bhagu sadan</p>
-   <p>number=xxxxx</p>
-   <p>Ambulance, bhagu Branch</p>
-      </div>
-      <div className='gap-5 d-flex'>
-        <i href="https://pay.google.com/gp/p/ui/pay?pa=yourupiid@okaxis&pn=YourName&am=100&cu=INR" target="_blank" class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-          <a class="pay-btn"
-       href="https://pay.google.com/gp/p/ui/pay?pa=yourupiid@okaxis&pn=YourName&am=10&cu=INR&tn=Test%20Payment"
-       target="_blank">
-       
-    </a>
-      </div>
-    </div>
+    <>
+    <div className="footer-backgroud">
+     
+        <div >
+  <p className="slogan">🙏 गौ माता की सेवा ही सच्ची सेवा है 🙏</p>
+</div>
+<div className="line"></div>
+ <div className="container">
+<div  className="footer-main">
 
-    <div>
-      <ul className='nav-laist'>
-        <h2>Quick Links</h2>
-        <li> <a  className='li-list' href="">Home</a></li>
-        <li> <a className='li-list' href=""> about</a></li>
-        <li> <a className='li-list' href="">gallery</a> </li>
-        <li> <a className='li-list' href=""> content</a> </li> 
-        <li> <a className='li-list' href=""> help</a> </li>
-      </ul>
-    </div>
-    <div className='bank'>
-   
-   <div>
-    <h2>Bank Details </h2>
-    <p>Name= shri bankey bihri gau shala bhagu <br />
-    A/C No. - 57000010xx <br />
-    IFSC Code - xxxxxxx <br />
-    Branch Name- Bhagu <br />
-    Bank Name - Bank  of baroda
-    </p>
-    <img className='Qr' src={ Qrcode} alt="" />
+<div className="footer-frist" >
+  {/* <img src={logo} alt="logo gau shala" /> */}
+  <div  className="footer-info">
+  <h6>Name = Shri Banke Bihari gau sewa sadan bhagu</h6>
+  <p>contectNumber=6280909078</p>
+  <p>whatsappNo= 6280909078</p>
+  
+  </div>
+  <div className="d-flex gap-5">
+    <div className="broder-fs">
+     <a 
+    href="https://chat.whatsapp.com/JkIis0RwEmS8IzMyh4M0tj" target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-whatsapp"></i></a></div>
+   <div className="broder-fs">  <a 
+    href="https://www.instagram.com/jakhar3805" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-instagram"></i>
+  </a></div>
+   <div className="broder-fs">  <a 
+    href="https://www.youtube.com/@mukeshjakhar27"  target="_blank"  rel="noopener noreferrer">
+    <i class="fa-brands fa-youtube"></i></a></div>
+   {/* <div className="broder-fs"><a className="fa-brands fa-instagram"></a></div> */}
+  </div>
+  </div>
+
+
+<div>
+  <h3 className="text-center bank "> Quick Links </h3>
+  <ul className="footer-ul">
     
-   </div>
-    </div>
-   </div>
-   </div>
-   </div>
-      </div>
-    </div>
-  )
-}
+    <li> <NavLink className="footer-navlinks" to="/"> Home </NavLink></li>
+    <li> <NavLink className="footer-navlinks" to="/about">  About    </NavLink></li>
+    <li> <NavLink className="footer-navlinks" to="/facilities">  Contact  </NavLink> </li>
+    <li> <NavLink className="footer-navlinks" to="/help"> Facilities</NavLink> </li>
+  </ul>
 
-export default Footer
+
+
+</div>
+
+<div  >
+<div>
+  <h3 className="bank">Bank detelas</h3>
+  <div  className="footer-ul">
+    <p>
+    Name = Shri Banke Bihari gau sewa sadan </p>
+    <p>A/C No = 57020200000080</p>
+    <p>IFSC Code -BARB0BHAFAZ</p>
+    <p>Bank Name = Bank of borada</p>
+    <p> Branch Name = bhagu</p>
+    <img className="qr" src={qrcode} alt="" />
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div className="line"></div>
+  <div className="slogan-bottam">
+        © 2025 Shri Banke Bihari Gau Sewa Sadan Bhagu — All Rights Reserved
+      </div>
+
+
+    </div>
+
+
+
+
+
+    </>
+  );
+}

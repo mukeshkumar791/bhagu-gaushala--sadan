@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contanier{
+  max-width: 1300px;
+  margin: auto;
+}
+
+.logo-tittel {
+    padding-top: 11px;
+ 
+}
+.logo{
+    display: flex;
+  justify-content: space-between; 
+  align-items: center;    
+  max-width: 1300px; 
+  width: 100%;
+  margin-right: 0px;
+  border-bottom: 1px solid black; 
+  font-family: 'popnis';
+   padding-bottom: 6px;
+   margin-bottom: 10px;
+}
+#menu-toggle {
+  display: none;
+}
+.toggla-img{
+  width: 100px;
+  height: 100px;
+}
+
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  display: none; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-transform: uppercase ;
+  font-weight: 900;
+  padding-top: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:orangered;
+  font-weight: 900;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+.bank{
+  color: orangered;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.doners1{
+  display: none;
+}
+@media (max-width: 991px) {
+  .menu-icon {
+    display: block; 
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: aqua;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    z-index: 1;
+     overflow-y: auto; 
+    
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+  .bank{
+    text-align: center;
+    font-size: 32px ;
+    color: orangered;
+  }
+  .doners1{
+    display: block;
+  }
+}

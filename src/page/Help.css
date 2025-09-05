@@ -1,0 +1,87 @@
+.help-information{
+    border: 1px solid orangered;
+    width: 100%;
+    max-width: 700px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+}
+.heading-main{
+    width: 100%;
+    max-width: 900px;
+    border: 2px solid orangered;
+    text-align: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+}
+.help-heading{
+    border: 1px solid orangered;
+    border-radius: 20px;
+    width: 500px;
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 20px;
+}
+
+.gaushale-make-informations{
+    display: flex;
+    justify-self: center;
+}
+.help-background-color{
+ background-color: cadetblue;
+}
+
+.help-part{
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    padding: 20px 0px 20px 0px;
+}
+.help-heading h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+.help-heading p{
+    color: black;
+    text-align: center;
+}
+
+@media (max-width:1100px) {
+    .help-heading{
+    width: 450px;
+    padding: 20px;
+}
+}
+@media (max-width:991px) {
+    .help-heading{
+    width: 450px;
+    padding: 4px;
+}
+.help-part{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media (max-width:591px) {
+    .help-heading{
+    width: 350px;
+    padding: 10px;
+}
+.help-heading h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+.heading-main{
+    height: 300px;
+    overflow-y: scroll;
+}
+}
