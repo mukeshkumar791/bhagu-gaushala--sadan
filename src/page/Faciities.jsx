@@ -50,7 +50,7 @@ const Faciities = () => {
           <div className='container'>
             <div className='main-content'>
             <div>
-              <img src={tuladanimg} alt="" />
+              <img className='tauladan-img' src={tuladanimg} alt="" />
               </div>
               <div className='batagodham'>
               <h5 className='text-center tuladan-heading'>तुलादान</h5>

@@ -56,7 +56,7 @@ export default function Footer() {
 
 <div  >
 <div>
-  <h3 className="bank">Bank detelas</h3>
+  <h3 className="bank">Bank details</h3>
   <div  className="footer-ul">
     <p>
     Name = Shri Banke Bihari gau sewa sadan </p>

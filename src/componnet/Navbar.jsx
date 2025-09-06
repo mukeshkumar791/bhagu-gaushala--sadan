@@ -59,15 +59,7 @@ export default function Navbar() {
             Facilities
           </NavLink>
         </li>
-        {/* <li>
-          <NavLink 
-            to="/gallery" 
-            onClick={closeMenu}
-            className={({ isActive }) => (isActive ? "li-list1 active" : "li-list1")}
-          >
-            Gallery
-          </NavLink>
-        </li> */}
+    
         <li>
           <NavLink 
             to="/help" 
@@ -86,16 +78,21 @@ export default function Navbar() {
             Contact
           </NavLink>
         </li>
-        <div className='doners1'>
-          <NavLink to="./donate" >
-                <button className='btn-oring'>donate now</button>
-            </NavLink>
-            </div>
+        {/* <div className='doners1'> */}
+                <NavLink 
+            to="/donate" 
+            onClick={closeMenu}
+            className={({ isActive }) => (isActive ? "doners1 active" : "doners1")}
+          >
+           <div className='btn-oring'>donate now</div>
+          </NavLink>
+            {/* </div> */}
+            
       </ul>
     </div>
     <div className="doners">
-            <NavLink to="./donate" >
-                <button className='btn-oring'>donate now</button>
+            <NavLink to="/donate"  >
+                <div className='btn-oring'>donate now</div>
             </NavLink>
           </div>
     </div>
