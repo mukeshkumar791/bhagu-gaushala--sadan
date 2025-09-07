@@ -138,15 +138,19 @@ const Header = () => {
 
       <section className='section-padding'>
         <div className='container'>
+                  <div className='d-flex  flex-column justify-content-center '>
+
           <div className='shree-banke-bihari-tempal'>
             <h2 className='font'>श्री बांके बिहारी</h2>
             <h1>मनोकामना पूर्ण करने  वाले श्री बांके बिहारी </h1>
             <p className='phara'>यहाँ श्री बांके बिहारी (गौमाता) जिसकी प्रतिदिन सुबह-शाम विधी-विद्यान से आरती की जाती है और आरती पश्चात् ही कर्मचारी भोजन करते है। श्री बांके बिहारी से श्रद्धाभाव से मन्नत मांगते है, समय पर उनकी मन्नत (मनोकामना) पूर्ण होने पर पूनः पधार कर पुष्पमाला पहनाकर, खाद्य सामग्री से तुलादान करवाकर आशीर्वाद लेते है।</p>
           </div>
+          </div>
         </div>
       </section>
       <section id='about' className='section-padding'>
         <div className='container'>
+          <div className='d-flex  flex-column justify-content-center '>
                   <div className='most-about'>
       <h2 className='font'>Most About श्री बांके बिहारी </h2>
       <div className='phargharf-scroll'>
@@ -162,6 +166,7 @@ const Header = () => {
     9.रात्रि में कोई लावारिस गोवंश दुर्घटनाग्रस्त हो गया है,जो संस्था से जुड़े हुए है वह किराये का वाहन कर दुर्घटनाग्रस्त गोवंश को गौ चिकित्सालय में भिजवा दें, 
     किराये में कुछ राशि कम रहती है, तो उस राशि का भुगतान कर दिया जायेगा।</p></div>
     </div>
+    </div>
         </div>
       </section> 
 <section className='section-padding'>
@@ -172,7 +177,7 @@ const Header = () => {
 <div className='cow-main-part'>
   <img className='cow-save' src={cowpaap} alt="" />
   <div className='cow-save-tittel'>
-    <h2 className='stop'>stop cow slaughter </h2>
+    <h2 className='stop '>stop cow slaughter </h2>
     <p> !!गाय हमारी माता है, इसका सम्मान और सुरक्षा करना हमारा धर्म है !!</p>
   </div>
 </div>

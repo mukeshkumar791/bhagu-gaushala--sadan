@@ -10,6 +10,7 @@ const Help = () => {
             </div>
             <section>
                 <div className='container'>
+                    <div className='d-flex  flex-column justify-content-center '>
                     <div className='help background-color'>
                     <div className='heading-main'>
                         <h2 ></h2>
@@ -25,6 +26,7 @@ const Help = () => {
                                 हमारी गौशाला में आकर नई ज़िंदगी पाती है।
                                 यहाँ उन्हें सुरक्षित स्थान, छत और परिवार का प्यार मिलता है।</p>
                         </div>
+                    </div>
                     </div>
                     </div>
                 </div>
@@ -133,7 +135,7 @@ const Help = () => {
                         </div>
                         <div>
                             <h2>मोबाइल:</h2>
-                            <p>6280909078</p>
+                            <p></p>
                         </div>
                         <div>
                             <h2>ईमेल:</h2>
