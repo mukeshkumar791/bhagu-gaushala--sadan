@@ -24,7 +24,7 @@ export default function Footer() {
   <p>whatsappNo= 6280909078</p>
   
   </div>
-  <div className="d-flex gap-5">
+  <div className="d-flex gap-5 justify-content-center">
     <div className="broder-fs">
      <a 
     href="https://chat.whatsapp.com/JkIis0RwEmS8IzMyh4M0tj" target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-whatsapp"></i></a></div>

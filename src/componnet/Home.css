@@ -62,7 +62,7 @@ body {
 
 .interdution-tittle {
     max-width: 750px;
-    justify-self: center;
+    justify-content: center;
 }
 
 .information-card-items {
@@ -129,7 +129,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-self: anchor-center;
+    justify-content: center;
     gap: 20px;
     text-align: center;
     padding-top: 45px;
@@ -140,7 +140,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-self: anchor-center;
+    justify-content: center;
     padding: 10px
 }
 
@@ -213,7 +213,7 @@ body {
     top: 141px;
     display: flex;
     flex-direction: column;
-    justify-self: anchor-center;
+    justify-content:center;
     text-transform: uppercase;
     color: #f91717;
 }
@@ -236,8 +236,8 @@ body {
     top: 50px;
     display: flex;
     flex-direction: column;
-    justify-self: anchor-center;
-    align-items: anchor-center;
+    justify-content: center;
+    align-items: center;
 }
 
 .toggla-icon {
@@ -352,7 +352,7 @@ body {
         top: 35px;
         display: flex;
         flex-direction: column;
-        justify-self: anchor-center;
+        justify-content: center;
         text-align: center;
     }
 
