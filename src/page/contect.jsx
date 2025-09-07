@@ -9,7 +9,6 @@ export default function Contact() {
       <p className="slogan">🙏 "गौ माता की सेवा ही सबसे बड़ा धर्म है" 🙏</p>
 
       <div className="contact-container">
-        {/* Contact Info */}
         <div className="contact-info">
           <h2>📞 संपर्क जानकारी</h2>
           <p>
@@ -17,8 +16,8 @@ export default function Contact() {
             गाँव भागू, जिला अबोहर, पंजाब - 152116
           </p>
           <p>
-            <strong>📞 मोबाइल:</strong>{" "}
-            <a href="tel:+916283630247">+91-62836-30247</a>
+            <strong>📞 मोबाइल:</strong>{""}
+            <a href="tel:+916283630247">+91-6280909078</a>
           </p>
           <p>
             <strong>✉️ ईमेल:</strong>{" "}
@@ -41,12 +40,10 @@ export default function Contact() {
    <div className="broder-fs">  <a 
     href="https://www.youtube.com/@mukeshjakhar27"  target="_blank"  rel="noopener noreferrer">
     <i class="fa-brands fa-youtube"></i></a></div>
-   {/* <div className="broder-fs"><a className="fa-brands fa-instagram"></a></div> */}
   </div>
           </div>
         </div>
 
-        {/* Contact Form */}
         <div className="contact-form">
           <h2> हमें संदेश भेजें</h2>
           <form>

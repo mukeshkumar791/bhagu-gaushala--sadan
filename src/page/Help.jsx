@@ -133,7 +133,7 @@ const Help = () => {
                         </div>
                         <div>
                             <h2>मोबाइल:</h2>
-                            <p>xxxxxxx</p>
+                            <p>6280909078</p>
                         </div>
                         <div>
                             <h2>ईमेल:</h2>

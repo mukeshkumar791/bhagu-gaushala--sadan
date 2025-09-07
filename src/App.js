@@ -1,4 +1,4 @@
-import Header from './componnet/Header';
+import Home from './componnet/Home.jsx';
 import Navbar from './componnet/Navbar.jsx';
 import {Routes, Route,} from 'react-router-dom';
 import About from './page/About';
@@ -11,7 +11,7 @@ function App() {
     <>
     <Navbar/>
 <Routes>
-  <Route path="/" element={< Header/>} />
+  <Route path="/" element={< Home/>} />
   <Route path="/about" element={<About />}/>
   <Route path="/donate" element={< Donate/>}/>
   < Route path='/facilities' element={<Faciities/>}  />

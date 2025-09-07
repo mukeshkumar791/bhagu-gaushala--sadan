@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+import './Home.css'
 import tuladan from "../img/tt454662561-076.jpg"
 import Footer from './Footer'
 import cowpaap from "../img/save-the-cow.jpg"
@@ -52,7 +52,6 @@ const Header = () => {
           <div className='cow-tittel2'>
                     <h2 className='text-center'> Bhagu, rajawali road Abohar (tehsil)</h2>
                   </div>
-         
           </div>
           </div>
           </div>
