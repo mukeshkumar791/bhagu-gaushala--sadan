@@ -124,7 +124,7 @@ const Help = () => {
             </section>
             <section>
                 <div className='container'>
-                <div className='d-flex flex-column justify-content-center'>
+                <div className='d-flex flex-column  align-items-center'>
                     <div className='help-information '>
                         <h2>संपर्क जानकारी (Contact Information)</h2>
                         <div>

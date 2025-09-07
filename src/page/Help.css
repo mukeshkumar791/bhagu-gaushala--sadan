@@ -40,7 +40,7 @@
     justify-self: center;
 }
 .help-background-color{
- background-color: cadetblue;
+ /* background-color: cadetblue; */
  display: flex;
  justify-content: center;
 }
