@@ -46,7 +46,8 @@ const Header = () => {
       </Carousel.Item>
     </Carousel>
           </div>
-          <div className='welcome text-center items-center'>
+          
+          <div className='welcome text-center '>
             <img src={wlecom} alt="" style={{width: '160px'}} />
          <p className='font2'>श्री बाके बिहारी गौ सेवा सदन </p>
           <div className='cow-tittel2'>
@@ -78,12 +79,14 @@ const Header = () => {
       </section>
         <section className='section-padding'>   
         <div className='container'>
-          <div className='interdution-tittle d-flex flex-column '>
+          <div className='d-flex  flex-column .align-items-center items1'>
+          <div className='interdution-tittle'>
             <h2 className='text-center font'>श्री बांके बिहारी गौ सेवा सदन का परिचय</h2>
             <p className='phara'>श्री बांके बिहारी गौ सेवा सदन
               की स्थापना का मूल उद्देश्य यही है कि जो लावारिस गोवंश दुर्घटनाग्रस्त एवं अन्य बीमारी की पीड़ा से कराह रहा हो या मरणासन्न स्थिति से व्याकुल होकर सडकों के किनारे
               भटकता हो और भूख प्यास से व्याकुल होकर कहीं गहरे गढ्ढे में गिर गया हो या किसी वाहन की चपेट में आकर दुर्घटनाग्रस्त हो गया हो ऐसे गोवंशों को
               एम्बुलेंसों द्वारा समय पर लाकर उसका उपचार एवं इलाज कार्य करके बीमार गोवंश की सेवा करके एक नया जीवन देना ही (श्री बांके बिहारी सदन) का उद्देश्य हैं।</p>
+          </div>
           </div>
           <div className='information-crads'>
             <div className='information-card-items'>
@@ -138,7 +141,7 @@ const Header = () => {
 
       <section className='section-padding'>
         <div className='container'>
-                  <div className='d-flex  flex-column justify-content-center '>
+                  <div className='d-flex  flex-column items1 '>
 
           <div className='shree-banke-bihari-tempal'>
             <h2 className='font'>श्री बांके बिहारी</h2>
@@ -150,7 +153,7 @@ const Header = () => {
       </section>
       <section id='about' className='section-padding'>
         <div className='container'>
-          <div className='d-flex  flex-column justify-content-center '>
+          <div className='d-flex  flex-column items1'>
                   <div className='most-about'>
       <h2 className='font'>Most About श्री बांके बिहारी </h2>
       <div className='phargharf-scroll'>

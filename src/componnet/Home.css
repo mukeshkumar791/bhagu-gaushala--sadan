@@ -272,7 +272,14 @@ body {
   .doners{
     display: block;
   }
-
+  .interdution-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.items1{
+    align-items: center;
+}
 
 @media (max-width:1100px) {
 
