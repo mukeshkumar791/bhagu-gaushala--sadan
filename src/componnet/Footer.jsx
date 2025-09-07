@@ -29,12 +29,15 @@ export default function Footer() {
      <a 
     href="https://chat.whatsapp.com/JkIis0RwEmS8IzMyh4M0tj" target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-whatsapp"></i></a></div>
    <div className="broder-fs">  <a 
-    href="https://www.instagram.com/jakhar3805" target="_blank" rel="noopener noreferrer">
+    href="https://www.instagram.com/ghaushala_bhagu" target="_blank" rel="noopener noreferrer">
     <i className="fa-brands fa-instagram"></i>
   </a></div>
    <div className="broder-fs">  <a 
     href="https://www.youtube.com/@mukeshjakhar27"  target="_blank"  rel="noopener noreferrer">
     <i class="fa-brands fa-youtube"></i></a></div>
+     <div className="broder-fs">  <a 
+    href="https://www.facebook.com/share/17RZ7LUUje/"  target="_blank"  rel="noopener noreferrer">
+  <i class="fa-brands fa-facebook-f"></i>  </a></div>
    {/* <div className="broder-fs"><a className="fa-brands fa-instagram"></a></div> */}
   </div>
   </div>
