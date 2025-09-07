@@ -43,8 +43,8 @@ const Donation = () => {
         <h2>UPI के माध्यम से दान करें</h2>
         <img  src={QRcode}  alt="UPI QR Code" className="qr-code" />
         <p><strong>UPI ID:</strong> shrib62809080@barodampay</p>
-        <a 
-          href="upi://pay?pa=your-upi-id@upi&pn=GauSewa&mc=0000&cu=INR" 
+                <a href="upi://pay?pa=shrib62809080@barodampay=Shri+Banke+Bihari+Gaushala&am=500&cu=INR" target="_blank"
+
           className="donate-btn"
         >
           UPI से दान करें

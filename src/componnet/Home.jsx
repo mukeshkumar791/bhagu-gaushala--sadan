@@ -144,7 +144,7 @@ const Header = () => {
                   <div className='d-flex  flex-column items1 '>
 
           <div className='shree-banke-bihari-tempal'>
-            <h2 className='font'>श्री बांके बिहारी</h2>
+            <h2 className='font'>श्री बांके बिहारी गौ सेवा सदन </h2>
             <h1>मनोकामना पूर्ण करने  वाले श्री बांके बिहारी </h1>
             <p className='phara'>यहाँ श्री बांके बिहारी (गौमाता) जिसकी प्रतिदिन सुबह-शाम विधी-विद्यान से आरती की जाती है और आरती पश्चात् ही कर्मचारी भोजन करते है। श्री बांके बिहारी से श्रद्धाभाव से मन्नत मांगते है, समय पर उनकी मन्नत (मनोकामना) पूर्ण होने पर पूनः पधार कर पुष्पमाला पहनाकर, खाद्य सामग्री से तुलादान करवाकर आशीर्वाद लेते है।</p>
           </div>
@@ -155,7 +155,7 @@ const Header = () => {
         <div className='container'>
           <div className='d-flex  flex-column items1'>
                   <div className='most-about'>
-      <h2 className='font'>Most About श्री बांके बिहारी </h2>
+      <h2 className='font'>Most About श्री बांके बिहारी गौ सेवा सदन    </h2>
       <div className='phargharf-scroll'>
 <p className='phara'>1.विश्व स्तरीय गौ चिकित्सालय के लावारिस पीड़ाग्रस्त गोवंश को लाने हेतु पशु एम्बुलेन्स की व्यवस्था की गई है। 
   2.जिस स्थान से दुर्घटनाग्रस्त गोवंश लाये जाते हैं स्वस्थ होने के पश्चात् गोवंश को पुनः उसी स्थान पर छोड़ दिया जाता है। 
