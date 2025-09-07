@@ -46,7 +46,7 @@ const Header = () => {
       </Carousel.Item>
     </Carousel>
           </div>
-          <div className='welcome text-center'>
+          <div className='welcome text-center items-center'>
             <img src={wlecom} alt="" style={{width: '160px'}} />
          <p className='font2'>श्री बाके बिहारी गौ सेवा सदन </p>
           <div className='cow-tittel2'>
@@ -63,7 +63,7 @@ const Header = () => {
           <div className=''>
  <img className='realeant' src={mata} alt="" />
           </div>
- <div className='gaushale-make-informations'>
+ <div className='gaushale-make-informations items-center'>
           <h2 className='font'>श्री बाके बिहारी गौ सेवा सदन</h2>
           <p className='phara'> बाके बिहारी गौशाला एक ऐसा स्थान है जो गायों के प्रति प्रेम और देखभाल के लिए विशेष रूप से डिज़ाइन किया गया है। इसका निर्माण एक दूरदर्शी व्यक्ति की कृपा से हुआ है, जिनका उद्देश्य बेसहारा, घायल या दुर्घटनाग्रस्त गायों और मवेशियों को भोजन, आश्रय और चिकित्सा सहायता प्रदान करना है। सबसे बड़ा गौ उपचार अस्पताल खोल पाया है। गोपाष्टमी के पावन पर्व पर  देखरेख में गंगा गौ-संवर्धन केंद्र की स्थापना की गई है। इस पहल के मुख्य उद्देश्य के अनुसार, प्रत्येक गाँव को गौग्राम बनाना है।
  ने निम्नलिखित सेवाएँ प्रदान की हैं और अभी भी प्रदान कर रहा है:</p>
