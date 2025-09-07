@@ -10,8 +10,7 @@ const Help = () => {
             </div>
             <section>
                 <div className='container'>
-                    <div className='d-flex  flex-column justify-content-center '>
-                    <div className='help background-color'>
+                    <div className='help-background-color'>
                     <div className='heading-main'>
                         <h2 ></h2>
                         <h6 className='font'>
@@ -29,7 +28,6 @@ const Help = () => {
                     </div>
                     </div>
                     </div>
-                </div>
             </section>
             <section>
                 <div className='container'>
@@ -126,7 +124,8 @@ const Help = () => {
             </section>
             <section>
                 <div className='container'>
-                    <div className='help-information'>
+                <div className='d-flex flex-column justify-content-center'>
+                    <div className='help-information '>
                         <h2>संपर्क जानकारी (Contact Information)</h2>
                         <div>
                             <h2>पता: </h2>
@@ -142,7 +141,7 @@ const Help = () => {
                             <p>shribankebiharigosevasadanbhag <br />@gmail.com</p>
                         </div>
                     </div>
-
+</div>
                 </div>
             </section> 
             <Footer/>

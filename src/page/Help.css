@@ -10,6 +10,9 @@
     border-radius: 20px;
     padding: 20px;
 }
+.help background-color{
+
+}
 .heading-main{
     width: 100%;
     max-width: 900px;
@@ -38,6 +41,8 @@
 }
 .help-background-color{
  background-color: cadetblue;
+ display: flex;
+ justify-content: center;
 }
 
 .help-part{
