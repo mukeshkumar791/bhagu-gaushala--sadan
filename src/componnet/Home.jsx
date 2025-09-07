@@ -22,7 +22,7 @@ const Header = () => {
           className="d-block w-100"
           src={cowimage}
           alt="First slide"
-          style={{ height: '600px', objectFit: 'cover' }}
+          style={{ height: '400px', objectFit: 'cover' }}
         />
       </Carousel.Item>
       <Carousel.Item>
@@ -30,7 +30,7 @@ const Header = () => {
           className="d-block w-100"
           src={cowimage}
           alt="Second slide"
-          style={{ height: '600px',objectFit: 'cover', }}
+          style={{ height: '400px',objectFit: 'cover', }}
         />
       </Carousel.Item>
 
@@ -39,7 +39,7 @@ const Header = () => {
           className="d-block w-100"
           src={hiregrass}
           alt="Third slide"
-          style={{ height: '600px', objectFit: 'cover' }}
+          style={{ height: '400px', objectFit: 'cover' }}
         />
         {/* <Carousel.Caption>
         </Carousel.Caption> */}
