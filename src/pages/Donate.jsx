@@ -18,7 +18,9 @@ const Donation = () => {
       </div>
 
       <section className="donation-amounts">
-        <a href="upi://pay?pa=shrib62809080@barodampay=Shri+Banke+Bihari+Gaushala&am=500&cu=INR" target="_blank">
+        <a href="upi://pay?pa=shrib62809080@barodamp&pn=Shri+Banke+Bihari+Gaushala&cu=INR" target="_blank">
+Donate Any Amount
+
     <button class="donate-btn">Donate Now with UPI</button>
   </a>
         <h2 className='pt-5'>आपका हर एक दान गौ माता की सेवा में उपयोग होगा</h2>
@@ -43,8 +45,7 @@ const Donation = () => {
         <h2>UPI के माध्यम से दान करें</h2>
         <img  src={QRcode}  alt="UPI QR Code" className="qr-code" />
         <p><strong>UPI ID:</strong> shrib62809080@barodampay</p>
-                <a href="upi://pay?pa=shrib62809080@barodampay=Shri+Banke+Bihari+Gaushala&am=500&cu=INR" target="_blank"
-
+                <a href="upi://pay?pa=shrib62809080@barodamp&pn=Shri+Banke+Bihari+Gaushala&cu=INR" target="_blank"
           className="donate-btn"
         >
           UPI से दान करें
