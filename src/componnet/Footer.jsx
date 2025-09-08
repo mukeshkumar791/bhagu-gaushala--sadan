@@ -2,11 +2,19 @@ import React from "react";
 import "./Footer.css";
 import qrcode from "../img/QrCODEUntitled-pica.png"
 import { NavLink } from "react-router-dom";
-import logo from "../1.png"
 
 export default function Footer() {
   return (
     <>
+    <div className="container">
+    <div className="text-center donate-fix">
+  <a href="upi://pay?pa=shrib62809080@barodampay&pn=Shri+Banke+Bihari+Gaushala&cu=INR" target="_blank"
+          className="donate-btn"
+        >
+          <h5>donate now</h5>
+        </a>
+</div>
+</div>
     <div className="footer-backgroud">
      
         <div >
@@ -24,6 +32,11 @@ export default function Footer() {
   <p>whatsappNo= 6280909078</p>
   
   </div>
+
+     <div className="sign" style={{ fontSize: "32px", fontWeight: "bold" , paddingBottom:"15px"}} >
+      <span className="fast-flicker">f</span>oll<span className="flicker">o</span>w <span className="flicker">us</span> <span className="fast-flicker">on</span>
+    </div>
+ 
   <div className="d-flex gap-5 justify-content-center">
     <div className="broder-fs">
      <a 
@@ -74,17 +87,11 @@ export default function Footer() {
 </div>
 </div>
 <div className="line"></div>
+
   <div className="slogan-bottam">
         © 2025 Shri Banke Bihari Gau Sewa Sadan Bhagu — All Rights Reserved
       </div>
-
-
     </div>
-
-
-
-
-
     </>
   );
 }
