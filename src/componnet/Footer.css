@@ -100,22 +100,6 @@
   text-decoration: none;
   color: aliceblue;
 }
-
-@media (max-width:991px) {
-  .footer-main {
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .footer-ul {
-    align-items: center;
-  }
-
-  .footer-main {
-    gap: 20px;
-  }
-}
 sign {
   position: absolute;
   display: flex;
@@ -318,6 +302,22 @@ sign {
   z-index: 9999; 
   text-transform:uppercase ;
 }
+@media (max-width:991px) {
+  .footer-main {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-ul {
+    align-items: center;
+  }
+
+  .footer-main {
+    gap: 20px;
+  }
+}
+
 
 
 
