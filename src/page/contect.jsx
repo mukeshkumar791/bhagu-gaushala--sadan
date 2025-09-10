@@ -40,6 +40,9 @@ export default function Contact() {
    <div className="broder-fs">  <a 
     href="https://www.youtube.com/@mukeshjakhar27"  target="_blank"  rel="noopener noreferrer">
     <i class="fa-brands fa-youtube"></i></a></div>
+      <div className="broder-fs">  <a 
+    href="https://www.facebook.com/share/17RZ7LUUje/"  target="_blank"  rel="noopener noreferrer">
+  <i class="fa-brands fa-facebook-f"></i>  </a></div>
   </div>
           </div>
         </div>
