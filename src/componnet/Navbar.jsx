@@ -1,7 +1,7 @@
 import '../componnet/Navbar.css'
 import React from 'react';
 import { NavLink } from "react-router-dom";
- import togglaimg from '../img/toggla3-removebg-preview.png'
+ import togglaimg from '../img/protg.png'
  import logo from "../1.png"
 export default function Navbar() {
   const closeMenu = () => {

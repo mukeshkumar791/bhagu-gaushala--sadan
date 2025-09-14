@@ -8,10 +8,6 @@
   margin: auto;
 }
 
-.logo-tittel {
-    padding-top: 11px;
- 
-}
 .logo{
     display: flex;
   justify-content: space-between; 
