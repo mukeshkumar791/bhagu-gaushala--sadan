@@ -2,7 +2,7 @@ import '../componnet/Navbar.css'
 import React from 'react';
 import { NavLink } from "react-router-dom";
  import togglaimg from '../img/protg.png'
- import logo from "../1.png"
+ import logo from "../img/mukeshjakhar,.png"
 export default function Navbar() {
   const closeMenu = () => {
     document.getElementById("menu-toggle").checked = false;
@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className='contanier'>
  <div className='logo'>
         <div className='d-flex logo-tittel '>
-          <img src={logo} alt="gaulogo" />
+          <img className='gaulogo' src={logo} alt="gaulogo" />
           {/* <h2 className='gau'>गौ सेवा सदन</h2>  */}
         </div>
 

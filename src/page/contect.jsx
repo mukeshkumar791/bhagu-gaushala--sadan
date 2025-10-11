@@ -1,6 +1,7 @@
-import React from "react";
+import React  from "react";
 import "./Contect.css";
 import Footer from "../componnet/Footer";
+// import { render } from "@testing-library/react";
 export default function Contact() {
   return (
     <>
@@ -74,8 +75,6 @@ export default function Contact() {
         width="100%"
         height="100%"
         style={{ border: 0 }}
-        // allowFullScreen=""
-        // loading="lazy"
       ></iframe>
     </div>
     </section>
