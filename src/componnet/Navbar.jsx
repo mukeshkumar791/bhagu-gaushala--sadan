@@ -7,7 +7,6 @@ export default function Navbar() {
   const closeMenu = () => {
     document.getElementById("menu-toggle").checked = false;
   };
-
   return (
     <div className='contanier'>
  <div className='logo'>
@@ -15,15 +14,12 @@ export default function Navbar() {
           <img className='gaulogo' src={logo} alt="gaulogo" />
           {/* <h2 className='gau'>गौ सेवा सदन</h2>  */}
         </div>
-
-
     <div>
       <input type="checkbox" id="menu-toggle" />
 
       <label htmlFor="menu-toggle" className="menu-icon">
         <img className="toggla-img" src={togglaimg} alt="toggle menu" />
       </label>
-
       <ul className="nav-links">
         <li>
           <NavLink 
@@ -44,12 +40,6 @@ export default function Navbar() {
           About
           </NavLink>
         </li>
-
-
-
-
-
-
         <li>
           <NavLink 
             to="/facilities" 

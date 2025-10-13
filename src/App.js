@@ -6,18 +6,24 @@ import Donate from "./pages/Donate"
 import Faciities from './page/Faciities.jsx';
 import Help from './page/Help.jsx';
 import Contact from './page/contect.jsx';
+import DiwaliPopup from './componnet/Diwalie.jsx';
+// import Login from './componnet/login'
+// import Sign from './componnet/Sign';
 function App() {
   return (
     <>
-    <Navbar/>
-<Routes>
+    {/* <Login/> */}
+    {/* <Sign/> */}
+    { <Navbar/> }
+    <DiwaliPopup/>
+ { <Routes>
   <Route path="/" element={< Home/>} />
   <Route path="/about" element={<About />}/>
   <Route path="/donate" element={< Donate/>}/>
   <Route path='/facilities' element={<Faciities/>}  />
   <Route path='/help' element={<Help/>}  />
   <Route path='/contact' element={<Contact/>}/>
-  </Routes>
+  </Routes> }
     </>
   );
 }

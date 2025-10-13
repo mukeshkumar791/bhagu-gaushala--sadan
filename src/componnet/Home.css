@@ -211,9 +211,9 @@ body {
 .cow-save-tittel {
     position: absolute;
     top: 141px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
+    display: grid;
+    /* flex-direction: column; */
+    justify-self: anchor-center;
     text-transform: uppercase;
     color: #f91717;
 }

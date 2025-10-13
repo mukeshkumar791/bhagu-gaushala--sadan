@@ -2,19 +2,19 @@ import React from "react";
 import "./Footer.css";
 import qrcode from "../img/QrCODEUntitled-pica.png"
 import { NavLink } from "react-router-dom";
-
+import logo from'../img/mukeshjakhar,.png'
 export default function Footer() {
   return (
     <>
-    <div className="container">
-    <div className="text-center donate-fix">
+    {/* <div className="container"> }
+    {<div className="text-center donate-fix">
   <a href="upi://pay?pa=shrib62809080@barodampay&pn=Shri+Banke+Bihari+Gaushala&cu=INR" target="_blank"
           className="donate-btn"
         >
           <h5>donate now</h5>
         </a>
-</div>
-</div>
+</div> }
+{ </div> */}
     <div className="footer-backgroud">
      
         <div >
@@ -25,7 +25,7 @@ export default function Footer() {
 <div  className="footer-main">
 
 <div className="footer-frist" >
-  {/* <img src={logo} alt="logo gau shala" /> */}
+  <img className="footer-logo" src={logo} alt="logo gau shala" />
   <div  className="footer-info">
   <h6>Name = Shri Banke Bihari gau sewa sadan bhagu</h6>
   <p>contectNumber=6280909078</p>

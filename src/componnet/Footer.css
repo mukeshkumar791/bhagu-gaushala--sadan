@@ -155,7 +155,11 @@ sign {
 .fast-flicker {
   animation: shine 2s forwards, blink 10s 1s infinite;
 }
-
+.footer-logo{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
 @keyframes shine {
   0% {
     color: #6b1839;
