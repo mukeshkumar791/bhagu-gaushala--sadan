@@ -6,7 +6,6 @@ import Donate from "./pages/Donate"
 import Faciities from './page/Faciities.jsx';
 import Help from './page/Help.jsx';
 import Contact from './page/contect.jsx';
-import DiwaliPopup from './componnet/Diwalie.jsx';
 // import Login from './componnet/login'
 // import Sign from './componnet/Sign';
 function App() {
@@ -15,7 +14,6 @@ function App() {
     {/* <Login/> */}
     {/* <Sign/> */}
     { <Navbar/> }
-    <DiwaliPopup/>
  { <Routes>
   <Route path="/" element={< Home/>} />
   <Route path="/about" element={<About />}/>
